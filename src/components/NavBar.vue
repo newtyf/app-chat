@@ -20,7 +20,7 @@
       <v-layout column align-center mt-5>
         <v-flex>
           <v-avatar size="120">
-            <img :src="usuario.foto" alt="avatar" referrerpolicy=“no-referrer” style="object-fit: cover" />
+            <img :src="usuario.foto" alt="avatar" referrerpolicy="no-referrer" style="object-fit: cover" />
           </v-avatar>
         </v-flex>
         <v-flex>

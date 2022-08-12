@@ -5,7 +5,7 @@
       id="avatar-home"
       :src="usuario.foto"
       alt="foto"
-      referrerpolicy="“no-referrer”"
+      referrerpolicy="no-referrer"
       width="100%"
     />
   </v-layout>

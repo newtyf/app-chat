@@ -7,7 +7,7 @@
             <img
               :src="usuario.foto"
               alt="avatar"
-              referrerpolicy="“no-referrer”"
+              referrerpolicy="no-referrer"
               style="object-fit: cover"
             />
           </v-avatar>
@@ -106,7 +106,7 @@ export default {
 
         this.usuario.foto = urlDescarga;
 
-        await db.collection("users").doc(this.usuario.uid).update({
+        await db.collection("users").doc(this.usuario.email).update({
           foto: urlDescarga,
         });
 
