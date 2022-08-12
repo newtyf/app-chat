@@ -24,11 +24,7 @@ export default {
   },
   components: {},
   mounted() {
-    const avatar = document.getElementById("avatar-home");
-    console.log(avatar);
-    avatar.addEventListener("load", () => {
-      this.loading = false;
-    });
+
   },
 };
 </script>
